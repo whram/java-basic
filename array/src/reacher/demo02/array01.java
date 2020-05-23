@@ -8,7 +8,7 @@ public class array01 {
         System.out.println("----------");
         int[] result = calculate(arrayA);
         for (int i = 0; i < result.length; i++) {
-            System.out.println(result[i]);
+            System.out.println("result: "+result[i]);
         }
     }
 
