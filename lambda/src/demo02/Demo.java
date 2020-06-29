@@ -21,9 +21,10 @@ public class Demo {
         }).start();
 
         //使用Lambda表达式，实现多线程
-        new Thread(() -> {
+        new Thread(
+                () -> {
                     System.out.println(Thread.currentThread().getName()+ "新的线程创建了！");
-        }
+                }
         ).start();
 
         //Lambda省略情况
